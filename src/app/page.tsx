@@ -33,6 +33,7 @@ const Login: React.FC = () => {
   const handleTogglePasswordVisibility = (): void => {
     setShowPassword((prev) => !prev);
   };
+  console.log('first')
 
   const handleLogin = (): void => {
     if (login === 'admin' && password === '123') {
