@@ -33,7 +33,6 @@ const Login: React.FC = () => {
   const handleTogglePasswordVisibility = (): void => {
     setShowPassword((prev) => !prev);
   };
-  console.log('first')
 
   const handleLogin = (): void => {
     if (login === 'admin' && password === '123') {
@@ -100,7 +99,7 @@ const Login: React.FC = () => {
         </Box>
 
         <Typography variant="subtitle1" textAlign="center" mb={3}>
-          Welcome to the Tyler Referral Network
+          Hello, it's Nazar
         </Typography>
         {errorMessage && (
           <Typography color="error" mb={2}>
