@@ -198,6 +198,7 @@ const MemberDetails: React.FC = () => {
               '&:hover': { backgroundColor: '#D0D0D0' },
             }}
           >
+            shos tam
             Cancel
           </Button>
           <Button
