@@ -21,7 +21,7 @@ const Login: React.FC = () => {
   const [login, setLogin] = useState<string>('');
   const [password, setPassword] = useState<string>('');
   const [errorMessage, setErrorMessage] = useState<string>('');
-  const { isAuthenticated, isInitialized, login: authenticate } = useAuth(); 
+  const { isAuthenticated, isInitialized, login: authenticate } = useAuth();
   const router = useRouter();
 
   useEffect(() => {
